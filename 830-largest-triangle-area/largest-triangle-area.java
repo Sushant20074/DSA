@@ -31,7 +31,7 @@ class Solution {
     }
 
     // Helper method to compute Euclidean distance between two points
-    public static double getDist(int[] p1, int[] p2) {
+    private double getDist(int[] p1, int[] p2) {
         int dx = p1[0] - p2[0];
         int dy = p1[1] - p2[1];
         return Math.sqrt(dx * dx + dy * dy);
