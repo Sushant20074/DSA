@@ -6,7 +6,7 @@ class Solution {
 
         int lenGCD = gcd(str1.length(), str2.length());
         return str1.substring(0, lenGCD);        
-    }
+    } 
 
     private int gcd(int len1, int len2) {
         while (len2 != 0) {
