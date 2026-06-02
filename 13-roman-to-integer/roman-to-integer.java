@@ -15,7 +15,7 @@ public class Solution {
 
         int total = 0;
         int length = s.length();
-
+ 
         // Iterate through the string
         for (int i = 0; i < length; i++) {
             int currentValue = romanValues.get(s.charAt(i));
