@@ -5,7 +5,7 @@ class Solution {
     public int maxArea(int h, int w, int[] horizontalCuts, int[] verticalCuts) {
 
         Arrays.sort(horizontalCuts);
-        Arrays.sort(verticalCuts);
+        Arrays.sort(verticalCuts); 
 
         long maxH = horizontalCuts[0];
 
