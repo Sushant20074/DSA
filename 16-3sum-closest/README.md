@@ -5,7 +5,7 @@
 <p>You may assume that each input would have exactly one solution.</p>
 
 <p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p> 
 
 <pre>
 <strong>Input:</strong> nums = [-1,2,1,-4], target = 1
