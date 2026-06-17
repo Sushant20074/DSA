@@ -6,7 +6,7 @@ class RandomizedSet {
     Random rand;
 
     public RandomizedSet() {
-        list = new ArrayList<>();
+        list = new ArrayList<>(); 
         map = new HashMap<>();
         rand = new Random();
     }
