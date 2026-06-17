@@ -4,7 +4,7 @@ class Solution {
         Arrays.sort(nums);
         List<Integer> list=new ArrayList<>();
         boolean[] used=new boolean[nums.length];
-        permutations(nums,used,list);
+        permutations(nums,used,list); 
         return res;
     }
     public void permutations(int[] nums,boolean[] used,List<Integer>list){
