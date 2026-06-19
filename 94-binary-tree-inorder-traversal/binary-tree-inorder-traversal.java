@@ -4,7 +4,7 @@ class Solution {
 
         inorder(root, res);
         return res;        
-    }
+    } 
 
     private void inorder(TreeNode node, List<Integer> res) {
         if (node == null) {
