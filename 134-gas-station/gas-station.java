@@ -8,7 +8,7 @@ class Solution {
             int diff = gas[i] - cost[i];
              total += diff;
              currGas += diff;
-
+ 
              if(currGas < 0) {
                 start = i+1;
                 currGas = 0;
