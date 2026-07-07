@@ -6,7 +6,7 @@ SELECT
     SUM(state = 'approved') AS approved_count,
     SUM(amount) AS trans_total_amount,
     SUM((state = 'approved') * amount) AS approved_total_amount
-FROM 
+FROM  
     Transactions
 GROUP BY 
     month, country;
