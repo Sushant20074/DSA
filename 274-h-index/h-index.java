@@ -8,7 +8,7 @@ class Solution {
             if (citations[i] >= count) {
                 h = count;
                 break; 
-            } 
+            }
         }
 
         return h;
