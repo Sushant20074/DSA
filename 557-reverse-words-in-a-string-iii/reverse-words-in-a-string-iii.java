@@ -4,7 +4,7 @@ class Solution {
         String[] words = s.split(" ");
         StringBuilder result = new StringBuilder();
 
-        for (int i = 0; i < words.length; i++) {
+        for (int i = 0; i < words.length; i++) { 
 
             StringBuilder sb = new StringBuilder(words[i]);
             sb.reverse();
