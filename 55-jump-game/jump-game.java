@@ -4,7 +4,7 @@ class Solution {
 
         for (int i = nums.length - 2; i >= 0; i--) {
             if (i + nums[i] >= goal) {
-                goal = i;
+                goal = i; 
             }
         }
 
