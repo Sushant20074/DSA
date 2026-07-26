@@ -4,7 +4,7 @@ class Solution {
         List<Integer> list=new ArrayList<>();
         List<List<Integer>> ans=new ArrayList<>();
         Arrays.sort(nums);
-        printSubsets(nums,0,list,ans);
+        printSubsets(nums,0,list,ans); 
 
         return ans;
     }
