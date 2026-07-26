@@ -3,7 +3,7 @@ class Solution {
         if (s.charAt(0) == '0') {
             return 0;
         } 
-
+ 
         int n = s.length();
         int[] dp = new int[n + 1]; 
         dp[0] = dp[1] = 1;
