@@ -5,7 +5,7 @@ class Solution {
             if(nums[i]%2==0){
             int temp=nums[left]; 
             nums[left]=nums[i];
-            nums[i]=temp;
+            nums[i]=temp; 
             left++;
             }
         }
