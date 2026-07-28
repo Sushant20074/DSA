@@ -3,7 +3,7 @@ class Solution {
         int n = nums.length;
         int expectedSum = n * (n + 1) / 2;
         int actualSum = 0;
-
+ 
         for (int num : nums) {
             actualSum += num;
         }
