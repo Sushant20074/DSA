@@ -11,7 +11,7 @@ class Solution {
         }
 
         for (int c : count) {
-            if (c != 0) return false;
+            if (c != 0) return false; 
         }
 
         return true;
