@@ -7,7 +7,7 @@ class Solution {
             for (int j = i + 1; j < n; j++) {
                 for (int k = j + 1; k < n; k++) {
                     // Calculate side lengths of the triangle
-                    double a = getDist(points[i], points[j]);
+                    double a = getDist(points[i], points[j]); 
                     double b = getDist(points[j], points[k]);
                     double c = getDist(points[k], points[i]);
 
