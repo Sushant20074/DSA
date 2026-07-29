@@ -7,7 +7,7 @@ class Solution {
 
         while (left < right) {
 
-            if (!Character.isLetter(arr[left])) {
+            if (!Character.isLetter(arr[left])) { 
                 left++;
             }
             else if (!Character.isLetter(arr[right])) {
