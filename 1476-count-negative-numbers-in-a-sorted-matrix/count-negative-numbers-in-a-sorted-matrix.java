@@ -6,7 +6,7 @@ class Solution {
                 if(grid[i][j]<0){
                     ans++;
                 }
-            }
+            } 
             
         }
         return ans;
