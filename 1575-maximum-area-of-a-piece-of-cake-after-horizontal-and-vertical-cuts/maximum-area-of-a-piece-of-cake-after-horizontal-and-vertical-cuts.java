@@ -6,7 +6,7 @@ class Solution {
 
         Arrays.sort(horizontalCuts);
         Arrays.sort(verticalCuts);  
-
+ 
         long maxH = horizontalCuts[0];
 
         for(int i = 1; i < horizontalCuts.length; i++) {
