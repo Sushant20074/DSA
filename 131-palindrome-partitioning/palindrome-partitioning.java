@@ -4,7 +4,7 @@ class Solution {
 
     public List<List<String>> partition(String s) {
         List<List<String>> result = new ArrayList<>();
-        backtrack(s, 0, new ArrayList<>(), result);
+        backtrack(s, 0, new ArrayList<>(), result); 
         return result; 
     }
 
