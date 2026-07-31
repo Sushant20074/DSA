@@ -2,7 +2,7 @@ SELECT
     product_id,
     year AS first_year,
     quantity,
-    price
+    price 
 FROM Sales
 WHERE (product_id, year) IN (
     SELECT
