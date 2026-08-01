@@ -2,7 +2,7 @@ class Solution {
     public String minWindow(String s, String t) {
         if (s.length() < t.length()) {
             return "";
-        } 
+        }
 
         Map<Character, Integer> charCount = new HashMap<>();
         for (char ch : t.toCharArray()) {
