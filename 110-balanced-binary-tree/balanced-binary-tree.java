@@ -19,7 +19,7 @@
         return dfsHeight(root) != -1;
     }
 
-    private int dfsHeight(TreeNode node) {
+    private int dfsHeight(TreeNode node) { 
         if (node == null) return 0;
 
         int leftHeight = dfsHeight(node.left);
