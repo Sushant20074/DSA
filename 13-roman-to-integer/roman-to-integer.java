@@ -7,7 +7,7 @@ public class Solution {
         Map<Character, Integer> romanValues = new HashMap<>();
         romanValues.put('I', 1);
         romanValues.put('V', 5);
-        romanValues.put('X', 10);
+        romanValues.put('X', 10); 
         romanValues.put('L', 50);
         romanValues.put('C', 100);
         romanValues.put('D', 500);
