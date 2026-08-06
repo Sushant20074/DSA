@@ -3,7 +3,7 @@ enum Result {
 }
 
 class Solution {
-    Result[][] memo;
+    Result[][] memo; 
 
     public boolean isMatch(String text, String pattern) {
         memo = new Result[text.length() + 1][pattern.length() + 1];
