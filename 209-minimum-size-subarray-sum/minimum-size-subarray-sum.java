@@ -7,7 +7,7 @@ class Solution {
         
         for (int j = 0; j < nums.length; j++) {  // end pointer
             
-            sum += nums[j];  // expand window
+            sum += nums[j];  // expand window 
             
             while (sum >= target) {  // shrink window
                 minLength = Math.min(minLength, j - i + 1);
