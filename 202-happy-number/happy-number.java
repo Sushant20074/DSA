@@ -7,7 +7,7 @@ class Solution {
             }
             seen.add(n);
             n = getNext(n);
-        }
+        } 
 
         return true; 
     }
