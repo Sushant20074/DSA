@@ -5,7 +5,7 @@ class Solution {
         List<Integer> res = new ArrayList<>();
         for (int i = 1; i <= 9; i++) {
             if (mpp[i] == 0) continue; 
-            mpp[i]--;
+            mpp[i]--; 
             for (int j = 0; j <= 9; j++) {
                 if (mpp[j] == 0) continue;
                 mpp[j]--;
