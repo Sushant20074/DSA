@@ -5,7 +5,7 @@ class Solution {
             for(int j=i+1;j<nums.length;j++){
                 if(nums[i]+nums[j]==target){
                     ans[0]=i;
-                    ans[1]=j;
+                    ans[1]=j; 
                     break;
                 }
             }
