@@ -10,7 +10,7 @@ class Solution {
             ans.add(new ArrayList < > (ds));
             return;
         }
-
+ 
         for (int i = ind; i < arr.length; i++) {
             if (i > ind && arr[i] == arr[i - 1]) continue;
             if (arr[i] > target) break;
