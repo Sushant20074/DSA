@@ -6,7 +6,7 @@ class Solution {
         StringBuilder sb = new StringBuilder(); 
 
         for (int i = 0; i < values.length; ++i) {
-            if (num == 0) 
+            if (num == 0)  
                 break;
             while (num >= values[i]) {
                 sb.append(symbols[i]);
