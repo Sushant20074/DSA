@@ -5,7 +5,7 @@ class Solution {
         int currGas = 0;
 
         for(int i = 0; i < gas.length; i++) {
-            int diff = gas[i] - cost[i]; 
+            int diff = gas[i] - cost[i];  
              total += diff;
              currGas += diff;
  
