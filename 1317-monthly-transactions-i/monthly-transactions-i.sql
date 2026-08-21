@@ -1,5 +1,5 @@
 # Write your MySQL query statement below
-SELECT 
+SELECT  
     LEFT(trans_date, 7) AS month,
     country, 
     COUNT(id) AS trans_count,
