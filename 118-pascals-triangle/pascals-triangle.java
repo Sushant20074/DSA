@@ -5,7 +5,7 @@ class Solution {
     for (int i = 0; i < numRows; ++i) {
       Integer[] temp = new Integer[i + 1];
       Arrays.fill(temp, 1); 
-      ans.add(Arrays.asList(temp));
+      ans.add(Arrays.asList(temp)); 
     }
 
     for (int i = 2; i < numRows; ++i)
