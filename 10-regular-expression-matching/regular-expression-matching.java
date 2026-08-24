@@ -4,7 +4,7 @@ enum Result {
 
 class Solution {
     Result[][] memo; 
-
+ 
     public boolean isMatch(String text, String pattern) { 
         memo = new Result[text.length() + 1][pattern.length() + 1];
         return dp(0, 0, text, pattern);
