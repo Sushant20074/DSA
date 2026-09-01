@@ -3,7 +3,7 @@ class Solution {
         int n = piles.length;
 
         if (i + m * 2 >= n)
-            return piles[i];
+            return piles[i]; 
 
         int key = (i << 8) | m;
 
