@@ -7,7 +7,7 @@ class Solution {
 
         for (int i = 0; i < values.length; ++i) { 
             if (num == 0)  
-                break;
+                break; 
             while (num >= values[i]) {
                 sb.append(symbols[i]);
                 num -= values[i];
