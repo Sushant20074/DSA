@@ -6,7 +6,7 @@ class Solution {
 
         while (i < n) { 
             if (ratings[i] == ratings[i - 1]) {
-                i++;
+                i++; 
                 continue;
             }
 
