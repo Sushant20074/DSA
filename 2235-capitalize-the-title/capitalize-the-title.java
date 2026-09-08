@@ -6,7 +6,7 @@ class Solution {
 
         for (int i = 0; i < words.length; i++) {
             String word = words[i];
-
+ 
             if (word.length() <= 2) {
                 // Rule 1: all lowercase
                 result.append(word.toLowerCase());
