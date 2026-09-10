@@ -4,7 +4,7 @@
  *     int val;
  *     TreeNode left;
  *     TreeNode right;
- *     TreeNode() {} 
+ *     TreeNode() {}
  *     TreeNode(int val) { this.val = val; }
  *     TreeNode(int val, TreeNode left, TreeNode right) {
  *         this.val = val;
@@ -20,7 +20,7 @@ class Solution {
     
     private boolean isMirror(TreeNode n1, TreeNode n2) {
         if (n1 == null && n2 == null) {
-            return true; 
+            return true;
         }
         
         if (n1 == null || n2 == null) {
