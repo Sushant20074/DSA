@@ -5,7 +5,7 @@ public class Solution {
                 s = s.replace("()", ""); 
             } else if (s.contains("{}")) {
                 s = s.replace("{}", "");
-            } else if (s.contains("[]")) {
+            } else if (s.contains("[]")) { 
                 s = s.replace("[]", "");
             } else {
 
