@@ -4,7 +4,7 @@ class Solution {
         int n = A.length();
 
         for (int i = 0; i < n; i++) {
-            int j = i / (n >> 1);
+            int j = i / (n >> 1); 
             if (A.charAt(i) == '?')
                 q[j]++;
             else
