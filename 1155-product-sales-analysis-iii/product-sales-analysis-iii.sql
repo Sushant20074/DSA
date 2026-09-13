@@ -4,7 +4,7 @@ SELECT
     quantity,
     price 
 FROM Sales
-WHERE (product_id, year) IN (
+WHERE (product_id, year) IN ( 
     SELECT
         product_id,
         MIN(year) 
