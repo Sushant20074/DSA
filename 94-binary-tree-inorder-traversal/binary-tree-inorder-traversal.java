@@ -3,7 +3,7 @@ class Solution {
         List<Integer> res = new ArrayList<>();
 
         inorder(root, res);
-        return res;        
+        return res;         
     }
 
     private void inorder(TreeNode node, List<Integer> res) {
