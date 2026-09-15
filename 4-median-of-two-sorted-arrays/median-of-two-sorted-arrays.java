@@ -8,7 +8,7 @@ class Solution {
 
         // Merge the arrays into a single sorted array.
         int[] merged = new int[n + m];
-        int k = 0;
+        int k = 0; 
         for (int i = 0; i < n; i++) {
             merged[k++] = nums1[i];
         }
