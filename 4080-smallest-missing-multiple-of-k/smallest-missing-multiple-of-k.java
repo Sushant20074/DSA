@@ -6,7 +6,7 @@ class Solution {
             if (nums[i] == multiple) {
                 multiple += k;
             }
-        }
+        } 
         return multiple;
     }
 }
