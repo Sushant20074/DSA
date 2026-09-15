@@ -8,7 +8,7 @@ class Solution {
             tot ^= x;
         }
 
-        if (!nonZero) return 0;
+        if (!nonZero) return 0; 
         return tot == 0 ? n - 1 : n;
     }
 }
