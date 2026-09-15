@@ -4,7 +4,7 @@ class Solution {
         findCombinations(candidates, target, 0, new ArrayList<>(), result);
         return result;
     }
-
+ 
     private void findCombinations(int[] candidates, int target, int index,
                                   List<Integer> current, List<List<Integer>> result) {
         if (target == 0) {
