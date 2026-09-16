@@ -4,7 +4,7 @@ class Solution {
         int ind2=-1;
         // step 1 find breaking point 
         for(int i=nums.length-2;i>=0;i--){
-            if(nums[i]<nums[i+1]){
+            if(nums[i]<nums[i+1]){ 
                 ind1=i;
                 break;
             }
