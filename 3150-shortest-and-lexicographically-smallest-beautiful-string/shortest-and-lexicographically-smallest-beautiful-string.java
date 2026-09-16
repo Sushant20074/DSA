@@ -3,7 +3,7 @@ class Solution {
         String ans = "";
         int n = s.length();
 
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) { 
 
             int oneCnt = 0;
             StringBuilder cur = new StringBuilder();
